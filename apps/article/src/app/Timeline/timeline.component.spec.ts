@@ -1,4 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { CardModule } from 'primeng/card';
+import { TimelineModule } from 'primeng/timeline';
+
 import { TimelineComponent } from './timeline.component';
 
 describe('TimelineComponent', () => {
@@ -8,6 +13,10 @@ describe('TimelineComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [TimelineComponent],
+      imports: [
+        BrowserAnimationsModule,
+        TimelineModule,
+        CardModule,]
     }).compileComponents();
 
     fixture = TestBed.createComponent(TimelineComponent);
@@ -18,4 +27,5 @@ describe('TimelineComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });
