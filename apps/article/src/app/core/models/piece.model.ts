@@ -6,4 +6,8 @@ export interface Piece {
   serie?: string;
   timeline?: string;
   universe?: string;
+  isCanon: boolean;
+  isRemake: boolean;
+  isReboot: boolean;
+  isOriginal: boolean;
 }
