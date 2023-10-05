@@ -4,4 +4,8 @@ export interface Universe {
   description?: string;
   franchise: string;
   serie?: string;
+  isCanon: boolean;
+  isRemake: boolean;
+  isReboot: boolean;
+  isOriginal: boolean;
 }

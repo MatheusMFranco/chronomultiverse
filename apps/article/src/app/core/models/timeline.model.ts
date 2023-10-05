@@ -5,4 +5,8 @@ export interface Timeline {
   franchise: string;
   serie?: string;
   universe?: string;
+  isCanon: boolean;
+  isRemake: boolean;
+  isReboot: boolean;
+  isOriginal: boolean;
 }
