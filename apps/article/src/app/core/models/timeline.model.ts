@@ -9,5 +9,5 @@ export interface Timeline {
   isReboot: boolean;
   isOriginal: boolean;
   era: Era;
-  pieces: Piece;
+  pieces: Piece[];
 }
