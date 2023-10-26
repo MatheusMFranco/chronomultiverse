@@ -1,0 +1,14 @@
+export enum Platform {
+  PLAYSTATION,
+  NINTENDO,
+  XBOX,
+  NETFLIX,
+  MAX,
+  DISNEY,
+  APPLE,
+  PRIME_VIDEO,
+  STAR,
+  CRUNCHYROLL,
+  SPOTIFY,
+  YOUTUBE,
+}
