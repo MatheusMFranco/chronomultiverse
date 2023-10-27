@@ -1,4 +1,5 @@
 import { Format } from '../enums/format.enum';
+import { Platform } from '../enums/platform.enum';
 
 export interface Piece {
   name: string;
@@ -10,4 +11,5 @@ export interface Piece {
   isReboot: boolean;
   isOriginal: boolean;
   format: Format;
+  platforms: Platform[];
 }
