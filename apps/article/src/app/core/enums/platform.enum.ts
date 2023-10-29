@@ -12,4 +12,5 @@ export enum Platform {
   SPOTIFY,
   YOUTUBE,
   TELECINE,
+  GLOBO_PLAY,
 }
