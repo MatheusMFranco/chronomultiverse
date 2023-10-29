@@ -11,4 +11,5 @@ export enum Platform {
   CRUNCHYROLL,
   SPOTIFY,
   YOUTUBE,
+  TELECINE,
 }
