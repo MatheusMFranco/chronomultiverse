@@ -14,4 +14,5 @@ export enum Platform {
   TELECINE,
   GLOBO_PLAY,
   MANGA_UP,
+  PARAMOUNT,
 }
