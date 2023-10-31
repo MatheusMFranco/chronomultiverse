@@ -13,4 +13,5 @@ export enum Platform {
   YOUTUBE,
   TELECINE,
   GLOBO_PLAY,
+  MANGA_UP,
 }
