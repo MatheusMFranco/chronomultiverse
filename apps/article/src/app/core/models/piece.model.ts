@@ -12,4 +12,5 @@ export interface Piece {
   isOriginal: boolean;
   format: Format;
   platforms: Platform[];
+  year: number;
 }
