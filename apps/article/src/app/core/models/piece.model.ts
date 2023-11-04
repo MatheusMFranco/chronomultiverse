@@ -1,3 +1,4 @@
+import { Country } from '../enums/country.enum';
 import { Format } from '../enums/format.enum';
 import { Platform } from '../enums/platform.enum';
 
@@ -12,5 +13,6 @@ export interface Piece {
   isOriginal: boolean;
   format: Format;
   platforms: Platform[];
+  countries: Country[];
   year: number;
 }
