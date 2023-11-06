@@ -1,5 +1,6 @@
 import { Country } from '../enums/country.enum';
 import { Format } from '../enums/format.enum';
+import { Language } from '../enums/language.enum';
 import { Platform } from '../enums/platform.enum';
 
 export interface Piece {
@@ -14,5 +15,6 @@ export interface Piece {
   format: Format;
   platforms: Platform[];
   countries: Country[];
+  languages: Language[];
   year: number;
 }
