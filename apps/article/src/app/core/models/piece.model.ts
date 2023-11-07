@@ -17,4 +17,5 @@ export interface Piece {
   countries: Country[];
   languages: Language[];
   year: number;
+  position: number;
 }
