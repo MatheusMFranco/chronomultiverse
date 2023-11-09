@@ -10,6 +10,7 @@ export interface Piece {
   serie: string;
   isCanon: boolean;
   isRemake: boolean;
+  isRemaster: boolean;
   isReboot: boolean;
   isOriginal: boolean;
   format: Format;
