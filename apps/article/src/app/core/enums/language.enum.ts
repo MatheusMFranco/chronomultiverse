@@ -4,4 +4,5 @@ export enum Language {
   SPANISH,
   PORTUGUESE,
   FRENCH,
+  GERMAN,
 }
