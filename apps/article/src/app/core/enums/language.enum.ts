@@ -7,4 +7,5 @@ export enum Language {
   GERMAN,
   CHINESE,
   ITALIAN,
+  RUSSIAN,
 }
