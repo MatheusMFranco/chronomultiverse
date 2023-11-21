@@ -9,4 +9,5 @@ export enum Language {
   ITALIAN,
   RUSSIAN,
   KOREAN,
+  POLISH,
 }
