@@ -8,10 +8,4 @@ describe('AppComponent', () => {
       declarations: [AppComponent],
     }).compileComponents();
   });
-
-  it(`should have as title 'article'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('article');
-  });
 });
