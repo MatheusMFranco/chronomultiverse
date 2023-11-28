@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { CookiesPolicyComponent } from './cookies-policy.component';
 
-describe('CookiesPolicyComponent', () => {
+describe(CookiesPolicyComponent.name, () => {
   let component: CookiesPolicyComponent;
   let fixture: ComponentFixture<CookiesPolicyComponent>;
 
