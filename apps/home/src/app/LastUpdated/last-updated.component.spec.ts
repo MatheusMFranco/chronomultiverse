@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { LastUpdatedComponent } from './last-updated.component';
 
-describe('LastUpdatedComponent', () => {
+describe(LastUpdatedComponent.name, () => {
   let component: LastUpdatedComponent;
   let fixture: ComponentFixture<LastUpdatedComponent>;
 
