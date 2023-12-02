@@ -6,7 +6,7 @@ import { TimelineModule } from 'primeng/timeline';
 
 import { TimelineComponent } from './timeline.component';
 
-describe('TimelineComponent', () => {
+describe(TimelineComponent.name, () => {
   let component: TimelineComponent;
   let fixture: ComponentFixture<TimelineComponent>;
 
