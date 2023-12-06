@@ -14,7 +14,7 @@ interface EventItem {
   styleUrls: ['./timeline.component.css'],
 })
 export class TimelineComponent {
-  events: EventItem[];
+  public events: EventItem[];
 
     constructor() {
         this.events = [
